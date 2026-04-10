@@ -1,0 +1,106 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #5f9cff, #8f6ed5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+
+.container {
+  background: #1c1f2e;
+  padding: 25px;
+  border-radius: 15px;
+  width: 360px;              /* 👈 slightly bigger */
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+
+button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #5f9cff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4a7de0;
+}
+
+
+li {
+  margin-top: 10px;
+  list-style: none;
+  background: #2a2f4a;
+  padding: 10px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+
+.actions button {
+  margin-left: 5px;
+  background: #ff6b6b;
+}
+
+.actions button:first-child {
+  background: #4cd137; /* complete button */
+}
+
+#taskCount {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+
+#emptyMsg {
+  text-align: center;
+  color: #aaa;
+  margin-top: 10px;
+}
+.quote {
+  text-align: center;
+  font-size: 13px;
+  color: #cfd8ff;
+  margin-bottom: 15px;
+  font-style: italic;
+}
